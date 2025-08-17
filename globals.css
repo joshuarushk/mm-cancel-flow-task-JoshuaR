@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+/* simple utility for clamped widths */
+.container-narrow { @apply max-w-lg mx-auto px-4; }
+.container-wide { @apply max-w-5xl mx-auto px-4; }
